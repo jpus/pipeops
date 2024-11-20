@@ -1,1 +1,11 @@
-只能使用固定隧道token形式，UUID不可更改，不要添加UUID变量，环境变量参考nodejs-argo项目说明
+使用token,Argo端口8080，只需上传Dockerfile文件 使用镜像不要添加UUID变量
+
+环境变量(可选):
+
+ARGO_DOMAIN
+ARGO_AUTH
+NEZHA_SERVER
+NEZHA_PORT
+NEZHA_KEY
+NAME
+CFIP
